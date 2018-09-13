@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/downson/CLionProjects/SocketLib/socket_lib_client.cpp">
+			<Option target="SocketLib"/>
+		</Unit>
+		<Unit filename="/Users/downson/CLionProjects/SocketLib/socket_lib_client.h">
+			<Option target="SocketLib"/>
+		</Unit>
 		<Unit filename="/Users/downson/CLionProjects/SocketLib/socket_lib_server.cpp">
 			<Option target="SocketLib"/>
 		</Unit>
