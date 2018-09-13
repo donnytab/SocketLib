@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/downson/CLionProjects/SocketLib/library.cpp" "/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles/SocketLib.dir/library.cpp.o"
+  "/Users/downson/CLionProjects/SocketLib/socket_lib_server.cpp" "/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles/SocketLib.dir/socket_lib_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

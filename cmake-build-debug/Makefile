@@ -123,32 +123,32 @@ SocketLib/fast:
 	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/build
 .PHONY : SocketLib/fast
 
-library.o: library.cpp.o
+socket_lib_server.o: socket_lib_server.cpp.o
 
-.PHONY : library.o
+.PHONY : socket_lib_server.o
 
 # target to build an object file
-library.cpp.o:
-	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/library.cpp.o
-.PHONY : library.cpp.o
+socket_lib_server.cpp.o:
+	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/socket_lib_server.cpp.o
+.PHONY : socket_lib_server.cpp.o
 
-library.i: library.cpp.i
+socket_lib_server.i: socket_lib_server.cpp.i
 
-.PHONY : library.i
+.PHONY : socket_lib_server.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/library.cpp.i
-.PHONY : library.cpp.i
+socket_lib_server.cpp.i:
+	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/socket_lib_server.cpp.i
+.PHONY : socket_lib_server.cpp.i
 
-library.s: library.cpp.s
+socket_lib_server.s: socket_lib_server.cpp.s
 
-.PHONY : library.s
+.PHONY : socket_lib_server.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/library.cpp.s
-.PHONY : library.cpp.s
+socket_lib_server.cpp.s:
+	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/socket_lib_server.cpp.s
+.PHONY : socket_lib_server.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SocketLib"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... socket_lib_server.o"
+	@echo "... socket_lib_server.i"
+	@echo "... socket_lib_server.s"
 .PHONY : help
 
 

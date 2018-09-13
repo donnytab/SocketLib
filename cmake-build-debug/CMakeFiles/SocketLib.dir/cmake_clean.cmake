@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SocketLib.dir/library.cpp.o"
+  "CMakeFiles/SocketLib.dir/socket_lib_server.cpp.o"
   "libSocketLib.pdb"
   "libSocketLib.a"
 )
