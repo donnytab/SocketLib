@@ -123,6 +123,33 @@ SocketLib/fast:
 	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/build
 .PHONY : SocketLib/fast
 
+Demo/client_demo.o: Demo/client_demo.cpp.o
+
+.PHONY : Demo/client_demo.o
+
+# target to build an object file
+Demo/client_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o
+.PHONY : Demo/client_demo.cpp.o
+
+Demo/client_demo.i: Demo/client_demo.cpp.i
+
+.PHONY : Demo/client_demo.i
+
+# target to preprocess a source file
+Demo/client_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.i
+.PHONY : Demo/client_demo.cpp.i
+
+Demo/client_demo.s: Demo/client_demo.cpp.s
+
+.PHONY : Demo/client_demo.s
+
+# target to generate assembly for a file
+Demo/client_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/SocketLib.dir/build.make CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.s
+.PHONY : Demo/client_demo.cpp.s
+
 socket_lib_client.o: socket_lib_client.cpp.o
 
 .PHONY : socket_lib_client.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SocketLib"
+	@echo "... Demo/client_demo.o"
+	@echo "... Demo/client_demo.i"
+	@echo "... Demo/client_demo.s"
 	@echo "... socket_lib_client.o"
 	@echo "... socket_lib_client.i"
 	@echo "... socket_lib_client.s"

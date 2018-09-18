@@ -16,8 +16,9 @@ public:
     SocketLibClient(int port);
     virtual ~SocketLibClient();
     void socket_connect();
-    void *socket_receive(void *arg);
-    void *socket_send(void *arg);
+    static void *socket_receive(void *arg);
+    static void *socket_send(void *arg);
+    int get_socket();
 
 private:
     sockaddr_in addr_server;

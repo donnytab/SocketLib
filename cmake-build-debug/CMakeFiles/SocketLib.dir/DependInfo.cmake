@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/downson/CLionProjects/SocketLib/Demo/client_demo.cpp" "/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o"
   "/Users/downson/CLionProjects/SocketLib/socket_lib_client.cpp" "/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles/SocketLib.dir/socket_lib_client.cpp.o"
   "/Users/downson/CLionProjects/SocketLib/socket_lib_server.cpp" "/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles/SocketLib.dir/socket_lib_server.cpp.o"
   )

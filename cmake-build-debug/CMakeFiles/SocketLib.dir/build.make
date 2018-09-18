@@ -83,19 +83,34 @@ CMakeFiles/SocketLib.dir/socket_lib_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SocketLib.dir/socket_lib_client.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/downson/CLionProjects/SocketLib/socket_lib_client.cpp -o CMakeFiles/SocketLib.dir/socket_lib_client.cpp.s
 
+CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o: CMakeFiles/SocketLib.dir/flags.make
+CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o: ../Demo/client_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o -c /Users/downson/CLionProjects/SocketLib/Demo/client_demo.cpp
+
+CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/downson/CLionProjects/SocketLib/Demo/client_demo.cpp > CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.i
+
+CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/downson/CLionProjects/SocketLib/Demo/client_demo.cpp -o CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.s
+
 # Object files for target SocketLib
 SocketLib_OBJECTS = \
 "CMakeFiles/SocketLib.dir/socket_lib_server.cpp.o" \
-"CMakeFiles/SocketLib.dir/socket_lib_client.cpp.o"
+"CMakeFiles/SocketLib.dir/socket_lib_client.cpp.o" \
+"CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o"
 
 # External object files for target SocketLib
 SocketLib_EXTERNAL_OBJECTS =
 
 libSocketLib.a: CMakeFiles/SocketLib.dir/socket_lib_server.cpp.o
 libSocketLib.a: CMakeFiles/SocketLib.dir/socket_lib_client.cpp.o
+libSocketLib.a: CMakeFiles/SocketLib.dir/Demo/client_demo.cpp.o
 libSocketLib.a: CMakeFiles/SocketLib.dir/build.make
 libSocketLib.a: CMakeFiles/SocketLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libSocketLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/downson/CLionProjects/SocketLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libSocketLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/SocketLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SocketLib.dir/link.txt --verbose=$(VERBOSE)
 

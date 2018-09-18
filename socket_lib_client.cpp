@@ -46,3 +46,7 @@ void* SocketLibClient::socket_send(void *arg) {
         send(st, s, strlen(s), 0);
     }
 }
+
+int SocketLibClient::get_socket() {
+    return lib_socket;
+}
